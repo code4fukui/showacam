@@ -1,21 +1,25 @@
 # showacam
-日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
 
-A simple camera application for your browser.
+A Web/Code project by [Code for FUKUI](https://github.com/code4fukui).
 
-## Demo
-[https://code4fukui.github.io/showacam/](https://code4fukui.github.io/showacam/)
+**Live demo**: https://code4fukui.github.io/showacam/
 
-## Features
-- Capture images from your device's camera
-- Generate a QR code to share the captured image
-- Supports front and back cameras
+## Technology Stack
 
-## Usage
-1. Open the application in your web browser.
-2. Click the "巻く" (Roll) button to start the camera.
-3. Click the "撮る" (Shot) button to capture an image.
-4. Click the "QR" button to generate a QR code for the captured image.
+**Browser modules (ES imports):**
+
+- [`Camera.js`](https://code4fukui.github.io/Camera/Camera.js)
+
+
+## Installation & Setup
+
+No build step required. Clone the repository and open `index.html` in a browser,
+or visit the live demo at https://code4fukui.github.io/showacam/
+
+## Contributing
+
+Contributions are welcome. Please open an issue or pull request on GitHub.
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+
+MIT License. See [LICENSE](./LICENSE) for details.
